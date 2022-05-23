@@ -1,7 +1,7 @@
 import { css } from '@emotion/react'
 import CompanyLogo from '../icons/companyLogo'
 // import dynamic from 'next/dynamic'
-import BackgroundOval from '@/components/icons/backgroundOval'
+// import BackgroundOval from '@/components/icons/backgroundOval'
 import { bp } from '@/utils/index'
 
 const AuthenticationForm = ({ children }) => {
@@ -17,7 +17,8 @@ const AuthenticationForm = ({ children }) => {
       {children}
 
       <div css={styles.backgroundLogo}>
-        <BackgroundOval />
+        {/* TODO: re-add icon */}
+        {/* <BackgroundOval /> */}
       </div>
     </div>
   )
