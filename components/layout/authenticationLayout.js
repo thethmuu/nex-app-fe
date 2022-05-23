@@ -1,7 +1,7 @@
 import { css } from '@emotion/react'
 import CompanyLogo from '../icons/companyLogo'
 // import dynamic from 'next/dynamic'
-import BackgroundOval from '../icons/backgroundOval'
+import BackgroundOval from '@/components/icons/backgroundOval'
 import { bp } from '@/utils/index'
 
 const AuthenticationForm = ({ children }) => {
